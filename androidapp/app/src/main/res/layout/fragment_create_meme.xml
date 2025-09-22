@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewMeme"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/darker_gray"/>
+
+    <EditText
+        android:id="@+id/editTextCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter caption"/>
+
+    <Button
+        android:id="@+id/buttonPickImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Image"/>
+
+    <Button
+        android:id="@+id/buttonUploadMeme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Meme"/>
+
+</LinearLayout>

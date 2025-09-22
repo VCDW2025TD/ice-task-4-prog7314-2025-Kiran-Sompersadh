@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MemeStreamApp</string>
+    <string name="default_web_client_id">1036961071371-u0dih2drkrqt27ebqrlm0tg6ptfeg2ks.apps.googleusercontent.com</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="biometric_prompt_message">Unlock with your fingerprint</string>
+</resources>
